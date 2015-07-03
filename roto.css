@@ -35,6 +35,7 @@ html, body {
 
 .rtitle {
   padding-bottom:1em;
+  line-height:1.5em;
 }
 
 #rfoot {
@@ -63,4 +64,43 @@ a {
 
 a:hover {
   text-decoration:underline;
+}
+
+.rhv {
+  display:none;
+}
+
+@media (max-width: 768px) { 
+html, body {
+  font-family: 'Comfortaa', cursive;
+  font-size:14px;
+  letter-spacing:1px;
+}
+
+#rlogo img {
+  width:200px;
+}
+
+.rtitle {
+  padding-bottom:1em;
+}
+
+.rhs {
+  display:none;
+}
+
+.rhv {
+  display:block;
+}
+
+#rfoot {
+  flex-direction:column;
+  padding:1em;
+}
+
+.rcd {
+  font-size:12px;
+  align-self:center;
+}
+
 }
