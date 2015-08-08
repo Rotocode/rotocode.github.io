@@ -58,6 +58,10 @@ html, body {
   text-align:right;
 }
 
+.rcenter {
+  text-align:center;
+}
+
 a {
   text-decoration:none;
 }
